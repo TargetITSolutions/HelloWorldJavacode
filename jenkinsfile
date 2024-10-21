@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('git') {
             steps {
-                git branch: 'main', url: 'https://github.com/TargetITSolutions/hello-world-war.git'
+                git branch: 'dev', url: 'https://github.com/TargetITSolutions/hello-world-war.git'
             }
         }
         stage('Build code') {
